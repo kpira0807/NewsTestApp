@@ -1,0 +1,13 @@
+strings:
+  inputs: NewsTestApp/Resources
+  outputs:
+    - templateName: structured-swift4
+      output: NewsTestApp/Resources/SwiftGen/strings.swift
+xcassets:
+  inputs:
+    - NewsTestApp/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: NewsTestApp/Resources/SwiftGen/assets.swift
+
+
